@@ -14,9 +14,9 @@ Located in the lab repository is a simple Rails application called `javascript_m
 - Load your manifest into the application layout.
 
 ### Admin Layout
-- Choose 2 new JS files that you didn't include in the application manifest and 1 that you did and create an admin manifest.
+- Choose 2 new JS files that you didn't include in the application manifest and 1 that you did and create the admin manifest.
 - Load your manifest into the admin layout. 
-- Add an addition `javascript_include_tag` to the admin layout and load the final remaining JS file.
+- Add an additional `javascript_include_tag` to the admin layout and use it to load the final remaining JS file.
 
 When you finish, start the rails server with `rails server` and browse to http://localhost:3000 for the Application layout and http://localhost:3000/admin for the Admin layout. If you open Chrome dev tools and go to the elements tab, you should see the files you included in your manifest files as script tags in the head tag.
 
